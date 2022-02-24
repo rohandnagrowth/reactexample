@@ -22,7 +22,7 @@ function App() {
   const toggleMode = ()=>{
     if(mode==='light'){
       setmode('dark')
-      document.body.style.backgroundColor='grey';
+      document.body.style.backgroundColor='#03011c';
       showAlert('Dark Mode Enabled','success');
       // setInterval(() => {
       //   document.title='Please Install'
@@ -49,7 +49,7 @@ function App() {
       
       <Navbar title="Rohan Dixit" mode={mode} toggleMode={toggleMode}/>
       <Alert alert={alert}/>
-      <Textform heading="Enter the text to analyze With ReactJS " mode={mode} showAlert={showAlert}/>
+      <Textform heading="TEXTUTILS | ROHAN DIXIT  " mode={mode} showAlert={showAlert}/>
     </>
   );
 }
